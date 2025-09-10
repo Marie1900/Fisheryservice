@@ -272,10 +272,6 @@ td:first-child {
   padding-left: 0;
 }
 
-table.wp-block-table td {
-  padding-right: 3em;
-}
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -357,4 +353,11 @@ html {
 }
 .contact-padding {
   padding-top: 1.5em;
+}
+
+@media screen and (max-width: 899px) {
+  .wp-block-table td,
+  .wp-block-table th {
+    padding: 0.5em 0.8em;
+  }
 }
