@@ -69,6 +69,7 @@
   margin-right: 0.2em;
   line-height: 1;
   color: black;
+  margin-bottom: 0.1em;
 }
 .menu-text {
   color: black;
@@ -359,5 +360,8 @@ html {
   .wp-block-table td,
   .wp-block-table th {
     padding: 0.5em 0.8em;
+  }
+  .about-section {
+    padding-left: 1em;
   }
 }
